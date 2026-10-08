@@ -1,0 +1,11 @@
+{
+  "name": "cns",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "dev": "pnpm --parallel --filter frontend --filter backend dev",
+    "lint": "pnpm --parallel --filter frontend --filter backend lint",
+    "test": "pnpm --parallel --filter frontend --filter backend test"
+  }
+}
