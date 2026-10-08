@@ -7,19 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test": "vitest run"
+    "format:code": "eslint --fix .",
+    "test": "vitest run --configLoader runner"
   },
   "dependencies": {
-    "@auth/drizzle-adapter": "^1.10.0",
-    "@googlemaps/js-api-loader": "^2.0.2",
     "@tailwindcss/postcss": "^4.1.8",
-    "@tailwindcss/typography": "^0.5.16",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.468.0",
     "motion": "^12.23.12",
     "next": "^15.5.0",
-    "next-auth": "^5.0.0-beta.29",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwind-merge": "^3.3.0",

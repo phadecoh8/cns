@@ -5,6 +5,9 @@ All notable changes to CNS are recorded here. The format follows Keep a Changelo
 ## [Unreleased]
 
 ### Added
+- Responsive landing page with countdown, animated route illustration, FAQ, waitlist form and optional newsletter
+- Separate PostgreSQL waitlist and newsletter tables with validation and double opt-in routes
+- Founder sign-in with an HTTP-only signed cookie and a protected paginated waitlist dashboard
 - Project documentation: `README.md`, `AGENTS.md`, `CODEX.md`, `LICENSE`, `SECURITY.md`, `CONTRIBUTING.md`, `docs/`
 - Planned scope for the pilot: Faculty of Engineering and Faculty of CIESA
 - Planned features: campus search with map routing, location cards with indoor details, class updates and assignments, class changes, next class button, announcements and events, report a problem, low data mode, bulk upload, account deletion
