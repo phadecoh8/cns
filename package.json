@@ -2,10 +2,14 @@
   "name": "cns",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@10.12.1",
   "scripts": {
     "dev": "pnpm --parallel --filter frontend --filter backend dev",
     "lint": "pnpm --parallel --filter frontend --filter backend lint",
-    "test": "pnpm --parallel --filter frontend --filter backend test"
+    "test": "pnpm --parallel --filter frontend --filter backend test",
+    "format": "pnpm --parallel --filter frontend --filter backend format:code && prettier --write \"*.json\" \"*.yaml\" \"*.css\" \"frontend/**/*.json\" \"frontend/**/*.css\" \"backend/**/*.json\"",
+    "audit": "pnpm audit"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
